@@ -72,7 +72,7 @@ const styles = StyleSheet.create(
         },
         title: {
             fontSize: 30,
-            // fontFamily: 'Bold',
+            fontFamily: 'SemiBold',
             color: 'white',
         },
         bottomContainer: {
@@ -90,16 +90,16 @@ const styles = StyleSheet.create(
             width: screenWidth,
             paddingHorizontal: 10,
             backgroundColor: 'rgba(0,0,0,0.4)',
-            paddingTop: Constants.statusBarHeight
+            paddingTop: 25
         },
         label: {
             marginRight: 10,
-            // fontFamily: 'Regular',
+            fontFamily: 'Regular',
             fontSize: 18
         },
         sliderTitle: {
             fontSize: 20,
-            // fontFamily: 'SemiBold',
+            fontFamily: 'SemiBold',
             paddingTop: 10,
             textAlign: 'center',
         },
